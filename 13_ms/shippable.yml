@@ -1,11 +1,9 @@
 
 #### CI CONFIG
 
-language:   <Language name>
+language:   java
 
-<language version>: #depending on language
-  - <version>
-  - <version2>
+jdk:oraclejdk8
 
 #### special tags for ruby language ####
 gemfile:
